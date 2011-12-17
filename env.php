@@ -2,7 +2,7 @@
 /**
  * WordPress
  */
-define( 'DB_NAME', 'mysql' );
+define( 'DB_NAME', 'nycga' );
 define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', '2B5N6LIhOOoY52XGNECM' );
 define( 'DB_HOST', 'gatulsa-occupytulsa.dotcloud.com:19888' );
