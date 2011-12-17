@@ -1,0 +1,9 @@
+#!/bin/sh
+if [ -d ~/data/wp-content ]
+then
+      rm -rf ~/current/wp-content
+else
+      mkdir -p ~/data
+      mv ~/current/wp-content ~/data/wp-content
+fi
+ln -s ~/data/wp-content ~/current/wp-content
