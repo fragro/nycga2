@@ -78,8 +78,8 @@ define('WPLANG', '');
  */
 
 /* Multisite */
-define( 'MULTISITE', false );
-define( 'SUBDOMAIN_INSTALL', false );
+define( 'MULTISITE', true );
+define( 'SUBDOMAIN_INSTALL', true );
 $base = '/';
 define( 'DOMAIN_CURRENT_SITE', 'gatulsa-occupytulsa.dotcloud.com' );
 define( 'PATH_CURRENT_SITE', '/' );
